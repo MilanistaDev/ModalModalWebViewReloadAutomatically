@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FD226AB42DAD563A00714ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD226A9B2DAD563700714ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD226AA22DAD563700714ECF;
+			remoteInfo = ModalModalWebViewReloadAutomatically;
+		};
+		FD226ABE2DAD563B00714ECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD226A9B2DAD563700714ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD226AA22DAD563700714ECF;
+			remoteInfo = ModalModalWebViewReloadAutomatically;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD226AA32DAD563700714ECF /* ModalModalWebViewReloadAutomatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalModalWebViewReloadAutomatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD226AB32DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalModalWebViewReloadAutomaticallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD226ABD2DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalModalWebViewReloadAutomaticallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FD226AA52DAD563700714ECF /* ModalModalWebViewReloadAutomatically */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ModalModalWebViewReloadAutomatically;
+			sourceTree = "<group>";
+		};
+		FD226AB62DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ModalModalWebViewReloadAutomaticallyTests;
+			sourceTree = "<group>";
+		};
+		FD226AC02DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ModalModalWebViewReloadAutomaticallyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD226AA02DAD563700714ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD226AB02DAD563A00714ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD226ABA2DAD563B00714ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD226A9A2DAD563700714ECF = {
+			isa = PBXGroup;
+			children = (
+				FD226AA52DAD563700714ECF /* ModalModalWebViewReloadAutomatically */,
+				FD226AB62DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests */,
+				FD226AC02DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests */,
+				FD226AA42DAD563700714ECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD226AA42DAD563700714ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD226AA32DAD563700714ECF /* ModalModalWebViewReloadAutomatically.app */,
+				FD226AB32DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests.xctest */,
+				FD226ABD2DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD226AA22DAD563700714ECF /* ModalModalWebViewReloadAutomatically */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD226AC72DAD563B00714ECF /* Build configuration list for PBXNativeTarget "ModalModalWebViewReloadAutomatically" */;
+			buildPhases = (
+				FD226A9F2DAD563700714ECF /* Sources */,
+				FD226AA02DAD563700714ECF /* Frameworks */,
+				FD226AA12DAD563700714ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FD226AA52DAD563700714ECF /* ModalModalWebViewReloadAutomatically */,
+			);
+			name = ModalModalWebViewReloadAutomatically;
+			packageProductDependencies = (
+			);
+			productName = ModalModalWebViewReloadAutomatically;
+			productReference = FD226AA32DAD563700714ECF /* ModalModalWebViewReloadAutomatically.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD226AB22DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD226ACA2DAD563B00714ECF /* Build configuration list for PBXNativeTarget "ModalModalWebViewReloadAutomaticallyTests" */;
+			buildPhases = (
+				FD226AAF2DAD563A00714ECF /* Sources */,
+				FD226AB02DAD563A00714ECF /* Frameworks */,
+				FD226AB12DAD563A00714ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD226AB52DAD563A00714ECF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FD226AB62DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests */,
+			);
+			name = ModalModalWebViewReloadAutomaticallyTests;
+			packageProductDependencies = (
+			);
+			productName = ModalModalWebViewReloadAutomaticallyTests;
+			productReference = FD226AB32DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD226ABC2DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD226ACD2DAD563B00714ECF /* Build configuration list for PBXNativeTarget "ModalModalWebViewReloadAutomaticallyUITests" */;
+			buildPhases = (
+				FD226AB92DAD563B00714ECF /* Sources */,
+				FD226ABA2DAD563B00714ECF /* Frameworks */,
+				FD226ABB2DAD563B00714ECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD226ABF2DAD563B00714ECF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FD226AC02DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests */,
+			);
+			name = ModalModalWebViewReloadAutomaticallyUITests;
+			packageProductDependencies = (
+			);
+			productName = ModalModalWebViewReloadAutomaticallyUITests;
+			productReference = FD226ABD2DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD226A9B2DAD563700714ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FD226AA22DAD563700714ECF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FD226AB22DAD563A00714ECF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FD226AA22DAD563700714ECF;
+					};
+					FD226ABC2DAD563B00714ECF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FD226AA22DAD563700714ECF;
+					};
+				};
+			};
+			buildConfigurationList = FD226A9E2DAD563700714ECF /* Build configuration list for PBXProject "ModalModalWebViewReloadAutomatically" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD226A9A2DAD563700714ECF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FD226AA42DAD563700714ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD226AA22DAD563700714ECF /* ModalModalWebViewReloadAutomatically */,
+				FD226AB22DAD563A00714ECF /* ModalModalWebViewReloadAutomaticallyTests */,
+				FD226ABC2DAD563B00714ECF /* ModalModalWebViewReloadAutomaticallyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD226AA12DAD563700714ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD226AB12DAD563A00714ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD226ABB2DAD563B00714ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD226A9F2DAD563700714ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD226AAF2DAD563A00714ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD226AB92DAD563B00714ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD226AB52DAD563A00714ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD226AA22DAD563700714ECF /* ModalModalWebViewReloadAutomatically */;
+			targetProxy = FD226AB42DAD563A00714ECF /* PBXContainerItemProxy */;
+		};
+		FD226ABF2DAD563B00714ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD226AA22DAD563700714ECF /* ModalModalWebViewReloadAutomatically */;
+			targetProxy = FD226ABE2DAD563B00714ECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD226AC52DAD563B00714ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD226AC62DAD563B00714ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD226AC82DAD563B00714ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModalModalWebViewReloadAutomatically/Preview Content\"";
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.ModalModalWebViewReloadAutomatically;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD226AC92DAD563B00714ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModalModalWebViewReloadAutomatically/Preview Content\"";
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.ModalModalWebViewReloadAutomatically;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD226ACB2DAD563B00714ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.ModalModalWebViewReloadAutomaticallyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalModalWebViewReloadAutomatically.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModalModalWebViewReloadAutomatically";
+			};
+			name = Debug;
+		};
+		FD226ACC2DAD563B00714ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.ModalModalWebViewReloadAutomaticallyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalModalWebViewReloadAutomatically.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModalModalWebViewReloadAutomatically";
+			};
+			name = Release;
+		};
+		FD226ACE2DAD563B00714ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.ModalModalWebViewReloadAutomaticallyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModalModalWebViewReloadAutomatically;
+			};
+			name = Debug;
+		};
+		FD226ACF2DAD563B00714ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M7ZGYSAKB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.ModalModalWebViewReloadAutomaticallyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModalModalWebViewReloadAutomatically;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD226A9E2DAD563700714ECF /* Build configuration list for PBXProject "ModalModalWebViewReloadAutomatically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD226AC52DAD563B00714ECF /* Debug */,
+				FD226AC62DAD563B00714ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD226AC72DAD563B00714ECF /* Build configuration list for PBXNativeTarget "ModalModalWebViewReloadAutomatically" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD226AC82DAD563B00714ECF /* Debug */,
+				FD226AC92DAD563B00714ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD226ACA2DAD563B00714ECF /* Build configuration list for PBXNativeTarget "ModalModalWebViewReloadAutomaticallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD226ACB2DAD563B00714ECF /* Debug */,
+				FD226ACC2DAD563B00714ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD226ACD2DAD563B00714ECF /* Build configuration list for PBXNativeTarget "ModalModalWebViewReloadAutomaticallyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD226ACE2DAD563B00714ECF /* Debug */,
+				FD226ACF2DAD563B00714ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD226A9B2DAD563700714ECF /* Project object */;
+}
