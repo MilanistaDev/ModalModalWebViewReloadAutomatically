@@ -37,7 +37,7 @@ struct FirstModalView: View {
             }
         }
         .fullScreenCover(isPresented: $isPresented) {
-            WebView()
+            SecondModalView()
         }
     }
 }
