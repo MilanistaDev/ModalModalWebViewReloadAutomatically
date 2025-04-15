@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPresented = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button {
+                isPresented = true
+            } label: {
+                Text("Present FirstModalView")
+            }
         }
         .padding()
+        .fullScreenCover(isPresented: $isPresented) {
+            FirstModalView()
+        }
     }
 }
 
