@@ -14,10 +14,14 @@ struct FirstModalView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                Button {
-                    isPresented = true
-                } label: {
-                    Text("Present WebView")
+                VStack {
+                    Button {
+                        isPresented = true
+                    } label: {
+                        Text("Present WebView")
+                    }
+
+                    PresentWebButton()
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.top, 120)
